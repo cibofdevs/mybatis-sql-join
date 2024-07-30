@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo.mapper.EmployeeMapper">
+<!--    <resultMap id="EmployeeResultMap" type="com.example.demo.model.Employee">-->
+<!--        <id property="id" column="id"/>-->
+<!--        <result property="name" column="name"/>-->
+<!--        <result property="departmentId" column="department_id"/>-->
+<!--    </resultMap>-->
+
+<!--    <select id="findAll" resultMap="EmployeeResultMap">-->
+<!--        SELECT * FROM Employee-->
+<!--    </select>-->
+
+<!--    &lt;!&ndash; JOIN queries &ndash;&gt;-->
+<!--    <select id="leftJoin" resultType="map">-->
+<!--        SELECT e.id, e.name, d.name AS department_name-->
+<!--        FROM Employee e-->
+<!--        LEFT JOIN Department d-->
+<!--        ON e.department_id = d.id-->
+<!--    </select>-->
+
+<!--    <select id="rightJoin" resultType="map">-->
+<!--        SELECT e.id, e.name, d.name AS department_name-->
+<!--        FROM Employee e-->
+<!--        RIGHT JOIN Department d-->
+<!--        ON e.department_id = d.id-->
+<!--    </select>-->
+
+<!--    <select id="innerJoin" resultType="map">-->
+<!--        SELECT e.id, e.name, d.name AS department_name-->
+<!--        FROM Employee e-->
+<!--        INNER JOIN Department d-->
+<!--        ON e.department_id = d.id-->
+<!--    </select>-->
+
+<!--    <select id="fullJoin" resultType="map">-->
+<!--        SELECT e.id, e.name, d.name AS department_name-->
+<!--        FROM Employee e-->
+<!--        LEFT JOIN Department d-->
+<!--        ON e.department_id = d.id-->
+<!--        UNION-->
+<!--        SELECT e.id, e.name, d.name AS department_name-->
+<!--        FROM Employee e-->
+<!--        RIGHT JOIN Department d-->
+<!--        ON e.department_id = d.id-->
+<!--    </select>-->
+</mapper>
